@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+  }
+  
+  .item1 {
+  background-color: red;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  }
+  
+  .item2 {
+  background-color: green;
+  position:relative;
+  top: 45px;
+  right: 150px;
+ opacity: 80%;
+  
+  }

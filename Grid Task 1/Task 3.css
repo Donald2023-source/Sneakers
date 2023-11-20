@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    grid-template-rows: 80px 80px 80px 80px;
+}
+
+.one{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: gold;
+}
+
+.two{
+   grid-area: span;
+   background-color: darkblue;
+ 
+}
+
+.three{
+  grid-area: span;
+  background-color: aqua;
+}
+
+.four{
+    grid-column-start: 2;
+   background-color: green;
+}

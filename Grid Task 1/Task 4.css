@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 20px;
+}
+#One{
+    list-style: none;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: rgb(34, 30, 26);
+    width: 2opx;
+}
